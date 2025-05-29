@@ -4,6 +4,89 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Employee Attendance</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            margin: 40px;
+            color: #333;
+        }
+
+        h2 {
+            color: #3a3a3a;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+        }
+
+        label, asp\:Label {
+            display: inline-block;
+            width: 160px;
+            margin: 6px 0;
+            font-weight: 500;
+        }
+
+        input[type="text"], input[type="date"], textarea {
+            padding: 6px 10px;
+            margin: 5px 0 15px 0;
+            width: 250px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        input[type="text"]:focus, input[type="date"]:focus, textarea:focus {
+            outline: none;
+            border-color: #4A90E2;
+            box-shadow: 0 0 4px rgba(74, 144, 226, 0.5);
+        }
+
+        asp\:Button, input[type="submit"] {
+            background-color: #4A90E2;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            margin: 8px 4px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        asp\:Button:hover, input[type="submit"]:hover {
+            background-color: #357ABD;
+        }
+
+        asp\:GridView {
+            margin-top: 30px;
+            border-collapse: collapse;
+            width: 100%;
+            background-color: #fff;
+        }
+
+        asp\:GridView th, asp\:GridView td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+
+        asp\:GridView th {
+            background-color: #f1f1f1;
+            font-weight: bold;
+        }
+
+        asp\:GridView tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        asp\:GridView tr:hover {
+            background-color: #e6f2ff;
+        }
+
+        .aspNetDisabled {
+            opacity: 0.6;
+        }
+    </style>
+
 </head>
 <body>
     <form id="form1" runat="server">
