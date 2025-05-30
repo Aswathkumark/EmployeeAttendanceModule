@@ -49,7 +49,7 @@
             margin: 8px 4px;
             border-radius: 4px;
             cursor: pointer;
-            font-weight: 600;
+            font-weight: 599;
         }
 
         asp\:Button:hover, input[type="submit"]:hover {
@@ -65,7 +65,7 @@
 
         asp\:GridView th, asp\:GridView td {
             border: 1px solid #ccc;
-            padding: 10px;
+            padding: 9.5px;
             text-align: center;
         }
 
@@ -83,7 +83,7 @@
         }
 
         .aspNetDisabled {
-            opacity: 0.6;
+            opacity: 0.8;
         }
     </style>
 
